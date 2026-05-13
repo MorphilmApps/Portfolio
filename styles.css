@@ -311,8 +311,7 @@ h2 {
 }
 
 .project-card,
-.service-card,
-.contact-panel {
+.service-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.025));
@@ -356,6 +355,10 @@ h2 {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
+}
+
+.services .eyebrow {
+  font-size: 0.94rem;
 }
 
 .service-card {
